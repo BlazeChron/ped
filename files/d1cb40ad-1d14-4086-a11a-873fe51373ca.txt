@@ -1,0 +1,99 @@
+Nov 08, 2024 5:04:52 PM seedu.hiredfiredpro.Main main
+WARNING: The warning about Unsupported JavaFX configuration below (if any) can be ignored.
+Nov 08, 2024 5:04:52 PM com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @41e88023'
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.MainApp init
+INFO: =============================[ Initializing HiredFiredPro ]===========================
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.MainApp initConfig
+INFO: Using config file : config.json
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.commons.util.JsonUtil readJsonFile
+INFO: JSON file config.json found.
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.commons.core.LogsCenter init
+INFO: Log level will be set as: INFO
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.MainApp initPrefs
+INFO: Using preference file : preferences.json
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.commons.util.JsonUtil readJsonFile
+INFO: JSON file preferences.json found.
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.MainApp initModelManager
+INFO: Using data file : data\hiredfiredpro.json
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.commons.util.JsonUtil readJsonFile
+INFO: JSON file data\hiredfiredpro.json found.
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.MainApp start
+INFO: Starting HiredFiredPro V1.5.0ea
+Nov 08, 2024 5:04:53 PM seedu.hiredfiredpro.ui.UiManager start
+INFO: Starting UI...
+Nov 08, 2024 5:04:58 PM seedu.hiredfiredpro.logic.LogicManager execute
+INFO: ----------------[USER COMMAND][ view n/Alex Yeoh j/Software Engineer]
+Nov 08, 2024 5:04:58 PM seedu.hiredfiredpro.ui.MainWindow executeCommand
+INFO: Result: Viewing status of candidate: Alex Yeoh; Job: Software Engineer; Status: pending
+Exception in thread "JavaFX Application Thread" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+        at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
+        at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724)
+        at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+        at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+        at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+        at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+        at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+        at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+        at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+        at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+        at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+        at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+        at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+        at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+        at javafx.event.Event.fireEvent(Event.java:198)
+        at javafx.scene.Node.fireEvent(Node.java:8792)
+        at com.sun.javafx.scene.control.behavior.TextFieldBehavior.fire(TextFieldBehavior.java:154)
+        at com.sun.javafx.scene.control.behavior.TextInputControlBehavior.lambda$keyMapping$62(TextInputControlBehavior.java:332)
+        at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
+        at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+        at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+        at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+        at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+        at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+        at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+        at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+        at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+        at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+        at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+        at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+        at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+        at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+        at javafx.event.Event.fireEvent(Event.java:198)
+        at javafx.scene.Scene$KeyHandler.process(Scene.java:4105)
+        at javafx.scene.Scene.processKeyEvent(Scene.java:2156)
+        at javafx.scene.Scene$ScenePeerListener.keyEvent(Scene.java:2630)
+        at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:218)
+        at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:150)
+        at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+        at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleKeyEvent$1(GlassViewEventHandler.java:250)
+        at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424)
+        at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleKeyEvent(GlassViewEventHandler.java:249)
+        at com.sun.glass.ui.View.handleKeyEvent(View.java:548)
+        at com.sun.glass.ui.View.notifyKey(View.java:972)
+        at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+        at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+        at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.reflect.InvocationTargetException
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+        at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275)
+        at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84)
+        at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854)
+        ... 46 more
+Caused by: java.lang.NullPointerException
+        at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+        at seedu.hiredfiredpro.ui.UiPart.getFxmlFileUrl(UiPart.java:85)
+        at seedu.hiredfiredpro.ui.UiPart.<init>(UiPart.java:35)
+        at seedu.hiredfiredpro.ui.ViewPersonPanel.<init>(ViewPersonPanel.java:46)
+        at seedu.hiredfiredpro.ui.MainWindow.showDetails(MainWindow.java:185)
+        at seedu.hiredfiredpro.ui.MainWindow.executeCommand(MainWindow.java:228)
+        at seedu.hiredfiredpro.ui.CommandBox.handleCommandEntered(CommandBox.java:45)
+        ... 58 more
